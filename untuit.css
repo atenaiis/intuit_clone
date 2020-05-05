@@ -1,6 +1,7 @@
 body {
-  background-color: whitesmoke;
+  background-color:#ECEEF2 ;
   font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 form {
   text-align: center;
@@ -12,41 +13,41 @@ header {
 }
 .sign_in_btn,
 .account_btn {
-  background-color: #0f7db0;
+  background-color:	#0077c5 ;
   color: white;
   height: 35px;
   border-radius: 5px;
 }
+main {
+    text-align: center;
+}
 #intuit {
-  width: 500px;
+  width: 300px;
+  color: whitesmoke;
 }
-#green_leaf {
-  width: 100px;
-}
-#quickbook {
-  width: 50px;
-}
-#turbo_tax {
-  width: 50px;
-}
+
 fieldset {
-  width: 450px;
-  height: 700px;
+  width: 380px;
+  height: 600px;
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   margin: 20px auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 .whitesmoke {
   background-color: whitesmoke;
 }
 input {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   display: block;
   border-radius: 5px;
   text-align: center;
-  padding: 15px 20px 0 15px;
-  margin: 15px 0 25px 0;
 }
 footer {
   text-align: center;
+}
+.links_blue {
+    color: #3a94d6 ;
 }
