@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="untuit.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Untuit Page</title>
+    <title>Intuit Page</title>
   </head>
-  <body>
+  <body class="flex">
     <header>
       <div>
         <a>Already have an Intuit account?</a><br>
@@ -16,14 +16,25 @@
         <button class="sign_in_btn" type="submit"> <i class="fas fa-lock"></i> Sign In</button>
       </div>
     </header>
+    <main>
+      <div class="intuit_header">
+        <img id="intuit" src="https://www.certain.com/wp-content/uploads/2017/06/logo-intuit.png" alt="intuit_logo">
+        <img id="green_leaf" src="https://digitalasset.intuit.com/IMAGE/A5IlMIj2F/Mint_Lockup_1_.png" alt="green_leaf">
+        <img id="quickbook" src="https://accountech.com.pk/wp-content/uploads/2016/08/quickbooks-icon-png-quickbooks-icon2-509fdac91a7ea5fcc993ca463988b0fd-300x300.png" alt= " quickbook">
+        <img id="turbo_tax" src="http://lh3.googleusercontent.com/g4plK-CyqmlS8ttM5l3jp9lxJTgMXUJyQwU5Ubm_w-eMNmF49pfty0rD7PORKF7Wpw=w300" alt="turbo_tax">
+
+        
+
+      </div>
+    </main>
     <form>
-      <fieldset class="account_data white">
+      <fieldset class="account_data">
         <h2>Create an Intuit account</h2>
         <h4>One account for everything Intuit, including Mint.</h4>
         <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank">Learn more</a>
         <label>
           Email address
-          <input type="email" name="email" required />
+          <input  type="email" name="email" required />
         </label>
         <label>
           Phone (recommended)
@@ -33,7 +44,7 @@
           Password
           <input type="password" name="password" required />
         </label>
-        <input type="submit" name="create_account" value="Create an Account" />
+        <button class="account_btn" type="submit"> <i class="fas fa-lock"></i> Create an account</button>
         <h6>
           By clicking Create account, you agree to our <a href="https://www.mint.com/terms" target="_blank">Terms</a>  and have read and
           acknowledge our <a href="https://www.intuit.com/privacy/" target="_blank" >Privacy Statement </a>.
@@ -45,7 +56,7 @@
       <a> Legal Privacy Security</a><br/>
       <a>
         © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
-        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
         Terms and conditions, features, support, pricing, and service options
         subject to change without notice.</a
       >
