@@ -25,6 +25,10 @@ header {
   border: 1px solid gray;
   font-size: 20px;
 }
+.sign_in_btn {
+  width: 100px;
+  margin-left: 20px;
+}
 main {
   text-align: center;
 }
