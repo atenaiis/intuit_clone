@@ -3,36 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="untuit.css" />
-    <title>untuit Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Untuit Page</title>
   </head>
   <body>
+    <header>
+      <div>
+        <a>Already have an Intuit account?</a><br>
+        <a href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D97b97818-aa3d-4a83-bf6c-63cc957cf016%26adobe_mc%3DMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1588629675%26ivid%3D97b97818-aa3d-4a83-bf6c-63cc957cf016" target="_blank">I forgot my User ID or password</a>
+      </div>
+      <div>
+        <button class="sign_in_btn" type="submit"> <i class="fas fa-lock"></i> Sign In</button>
+      </div>
+    </header>
     <form>
-      <fieldset class="account_data">
+      <fieldset class="account_data white">
         <h2>Create an Intuit account</h2>
         <h4>One account for everything Intuit, including Mint.</h4>
-        <h6 href="#">Learn more</h6>
+        <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank">Learn more</a>
         <label>
-          Email-address
+          Email address
           <input type="email" name="email" required />
         </label>
         <label>
-          Phone number (recomended)
+          Phone (recommended)
           <input type="number" name="phone_number" />
         </label>
         <label>
-          password
+          Password
           <input type="password" name="password" required />
         </label>
-        <input type="submit" name="submit" value="Create an Account" />
+        <input type="submit" name="create_account" value="Create an Account" />
         <h6>
-          By click Create account, you agree to our Terms and have read and
-          acknowledge our Privacy Statement.
+          By clicking Create account, you agree to our <a href="https://www.mint.com/terms" target="_blank">Terms</a>  and have read and
+          acknowledge our <a href="https://www.intuit.com/privacy/" target="_blank" >Privacy Statement </a>.
         </h6>
-        <a> Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</a>
+        <a class="whitesmoke"> Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en" target="_blank">Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en" target="_blank">Terms of Use</a>.</a>
       </fieldset>
     </form>
     <footer>
-      <a> Legal Privacy Security</a><br />
+      <a> Legal Privacy Security</a><br/>
       <a>
         © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
         TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
