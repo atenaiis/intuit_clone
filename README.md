@@ -1,63 +1,39 @@
-# Project Name
+Intuit
 
-> One paragraph statement about the project.
+The aim of the project is to copy the sign in form of this website: https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D97b97818-aa3d-4a83-bf6c-63cc957cf016%26adobe_mc%3DMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1588629675%26ivid%3D97b97818-aa3d-4a83-bf6c-63cc957cf016# 
 
-![screenshot](./app_screenshot.png)
+![screenshot](.https://github.com/atenaiis/intuit_clone/blob/intuit_design/intuit_screenshot.jpeg)
 
-Additional description about the project and its features.
+We created this project in the intuit_design branch.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+HTML5
+CSS
+Sticklers
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: @atenaiis
+- Twitter: @spranomarian 
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: @epinczinger
+- Twitter: @epinczinger
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the https://github.com/atenaiis/intuit_clone/issues.
 
 ## Show your support
 
@@ -65,10 +41,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Thanks to Team 123 Ocicats and Team 121 Ragdolls.
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project has no license.
