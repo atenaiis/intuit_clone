@@ -26,8 +26,8 @@ header {
 .account_btn {
   border: 1px solid gray;
   font-size: 20px;
-  max-height: 45px;
-  max-width: 100%;
+  min-height: 47px;
+  min-width: 100%;
 }
 
 .sign_in_btn {
@@ -42,12 +42,11 @@ main {
 fieldset {
   background-color: white;
   border: 1px solid lightgray;
-  display: flex;
-  flex-direction: column;
-  margin: 20px auto 20px auto;
-  max-height: 600px;
-  max-width: 380px;
-  padding: 30px;
+  border-bottom: none;
+  margin: 20px auto 0 auto;
+  max-width: 340px;
+  min-height: 560px;
+  padding: 25px;
 }
 
 h2,
@@ -56,7 +55,13 @@ h4 {
 }
 
 .whitesmoke {
-  background-color: whitesmoke;
+  background-color: #eceef2;
+  border: 1px solid lightgray;
+  border-top: none;
+  font-size: x-small;
+  margin: 0 auto 0 auto;
+  max-width: 340px;
+  padding: 25px;
 }
 
 input {
@@ -64,7 +69,8 @@ input {
   border-radius: 5px;
   cursor: pointer;
   display: block;
-  max-height: 25px;
+  margin-top: 5px;
+  min-height: 30px;
   min-width: 100%;
 }
 
@@ -76,7 +82,23 @@ footer {
   color: #3a94d6;
 }
 
+.learn {
+  font-size: small;
+}
+
 .intuit {
   color: whitesmoke;
   width: 170px;
+}
+
+em {
+  font-size: smaller;
+}
+
+.description_account {
+  font-size: 15px;
+}
+
+.align_left {
+  text-align: start;
 }
