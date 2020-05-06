@@ -1,52 +1,54 @@
 body {
   background-color: #eceef2;
-  font-family: Arial, Helvetica, sans-serif;
   color: gray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 form {
-  text-align: center;
   padding: 10px;
+  text-align: center;
 }
 header {
   display: flex;
   justify-content: flex-end;
 }
-.sign_in_btn,
-.account_btn {
+.account_btn,
+.sign_in_btn {
   background-color: #0077c5;
-  color: white;
-  height: 35px;
   border-radius: 5px;
+  color: white;
   cursor: pointer;
+  height: 35px;
 }
 .account_btn {
-  width: 100%;
-  height: 45px;
   border: 1px solid gray;
   font-size: 20px;
+  height: 45px;
+  width: 100%;
 }
 .sign_in_btn {
-  width: 100px;
   margin-left: 20px;
+  width: 100px;
 }
 main {
   text-align: center;
 }
+
 #intuit {
-  width: 300px;
   color: whitesmoke;
+  width: 200px;
 }
 
 fieldset {
-  width: 380px;
-  height: 600px;
   background-color: white;
   border: 1px solid lightgray;
-  margin: 20px auto 20px auto;
   display: flex;
   flex-direction: column;
+  height: 600px;
+  margin: 20px auto 20px auto;
   padding: 30px;
+  width: 380px;
 }
+
 h2,
 h4 {
   color: #4c4c4c;
@@ -56,15 +58,17 @@ h4 {
 }
 input {
   border: 1px solid lightgray;
-  display: block;
   border-radius: 5px;
-  width: 100%;
-  height: 25px;
   cursor: pointer;
+  display: block;
+  height: 25px;
+  width: 100%;
 }
+
 footer {
   text-align: center;
 }
+
 .links_blue {
   color: #3a94d6;
 }
