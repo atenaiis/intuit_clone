@@ -65,7 +65,7 @@ input {
   cursor: pointer;
   display: block;
   max-height: 25px;
-  width: 100%;
+  min-width: 100%;
 }
 
 footer {
