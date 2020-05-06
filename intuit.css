@@ -39,11 +39,6 @@ main {
   text-align: center;
 }
 
-#intuit {
-  color: whitesmoke;
-  width: 200px;
-}
-
 fieldset {
   background-color: white;
   border: 1px solid lightgray;
@@ -53,7 +48,6 @@ fieldset {
   max-height: 600px;
   max-width: 380px;
   padding: 30px;
-  
 }
 
 h2,
@@ -80,4 +74,9 @@ footer {
 
 .links_blue {
   color: #3a94d6;
+}
+
+.intuit {
+  color: whitesmoke;
+  width: 170px;
 }
