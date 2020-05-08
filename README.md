@@ -12,10 +12,6 @@ HTML5
 CSS
 Sticklers
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 ## Authors
 
 👤 **Author1**
