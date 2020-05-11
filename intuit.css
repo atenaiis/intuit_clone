@@ -103,6 +103,7 @@ em {
 .align_left {
   text-align: start;
 }
+
 .phone_underline_text {
   font-size: x-small;
 }
@@ -118,6 +119,7 @@ em {
 .mint_logo {
   width: 26px;
 }
+
 .logo {
   justify-content: space-around;
   margin: 0 6px;
