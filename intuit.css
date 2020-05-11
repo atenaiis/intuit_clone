@@ -76,6 +76,7 @@ input {
 
 footer {
   text-align: center;
+  font-size: small;
 }
 
 .links_blue {
@@ -101,4 +102,29 @@ em {
 
 .align_left {
   text-align: start;
+}
+.phone_underline_text {
+  font-size: x-small;
+}
+
+.turbotax_logo {
+  width: 24px;
+}
+
+.quickbook_logo {
+  width: 27px;
+}
+
+.mint_logo {
+  width: 26px;
+}
+.logo {
+  justify-content: space-around;
+  margin: 0 6px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

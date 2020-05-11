@@ -5,6 +5,11 @@
     <link rel="stylesheet" type="text/css" href="intuit.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Intuit Page</title>
+    <style>
+      A {
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body class="flex">
     <header>
@@ -31,23 +36,36 @@
           alt="intuit_logo"
         />
       </div>
-      <div>
-        <img
-          id="green_leaf"
-          src="https://digitalasset.intuit.com/IMAGE/A3OSvbxLf/logo-mint-footer.png"
-          alt="green_leaf"
-        />
-        <img
-          id="quickbook"
-          src="https://digitalasset.intuit.com/IMAGE/A7Aq9134m/logo-quickbooks.png"
-          alt=" quickbook"
-        />
-        <img
-          id="turbo_tax"
-          src="https://digitalasset.intuit.com/IMAGE/A4ldtKC3b/logo-turbotax.png"
-          alt="turbo_tax"
-        />
+      <div class="logos">
+        <div>
+          <img
+            class="mint_logo logo"
+            id="green_leaf"
+            src="/things/mint_logo.png"
+            alt="green_leaf"
+          />
+        </div>
+        <div>mint</div>
+        <div>
+          <img
+            class="quickbook_logo logo"
+            id="quickbook"
+            src="/things/quickbook_logo.png"
+            alt=" quickbook"
+          />
+        </div>
+        <div>quickbooks</div>
+        <div>
+          <img
+            class="turbotax_logo logo"
+            id="turbo_tax"
+            src="/things/turbotax_logo.png"
+            alt="turbo_tax"
+          />
+        </div>
+        <div>turbotax</div>
       </div>
+
       <form>
         <fieldset class="account_data">
           <div>
@@ -72,7 +90,11 @@
           <div class="align_left">
             <label>
               Phone (recommended)
-              <input type="tel" name="phone_number" /><br /> </label
+              <input type="tel" name="phone_number" /><span
+                class="phone_underline_text"
+                >Standard call, messaging or data rates may apply.</span
+              >
+              <br /> </label
             ><br />
           </div>
           <div class="align_left">
