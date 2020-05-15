@@ -12,6 +12,8 @@ HTML5
 CSS
 Sticklers
 
+## [Live Link](https://raw.githack.com/atenaiis/intuit_clone/intuit_design/intuit.html)
+
 ## Authors
 
 👤 **Author1**
